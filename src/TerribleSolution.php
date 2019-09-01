@@ -40,8 +40,8 @@ class TerribleSolution implements RunnableSolution
 	{   
 		return [];
 	}	
-	
-	private function rmdir($dir) {
+	private function rmdir($dir) 
+	{
 		if (is_dir($dir)) {
 		  $objects = scandir($dir);
 		  foreach ($objects as $object) {
