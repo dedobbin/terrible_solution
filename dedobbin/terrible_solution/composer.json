@@ -1,0 +1,19 @@
+{
+	"name": "dedobbin/terrible_solution",
+	"description": "A terrible solution for terrible problems.",
+	"authors": [
+        {
+            "name": "dedobbin"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+        "psr-4": {
+            "Dedobbin\\TerribleSolution\\": "src/"
+		}
+	},
+	"require": {
+		"facade/ignition": "^1.0"
+	}
+
+}
